@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+// Import a Google Font
+// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$isabelline: #f8f7f3;
+$antique-brass: #BE9579;
+$charcoal: #2F5066;
+$wild-blue-yonder: #ABB5DE;
+$maya-blue: #5EBAF7;
+$off-white: #f2f0f1;
+$dark-white: #FAFAFA;
+$turquoise: #4da27d;
+$dark-green: #175749;
+$light-brown: #ede1d1;
+$light-green: #5dc297;
+
+
+//navbar
+$navbar-box-shadow-color: #070606;
+// $navbar-background-color: $isabelline;
+$navbar-tab-active-color: $maya-blue;
+$navbar-item-hover-color: $antique-brass;
+
+// Update Bulma's global variables
+$family-sans-serif: "Helvetica Neue";
+$navbar-padding-vertical: 0;
+$navbar-padding-horizontal: 0;
+// $grey-dark: $brown;
+// $grey-light: $beige-light;
+$primary: $charcoal;
+$link: $turquoise;
+$link-dark: $dark-green;
+$success: $light-brown;
+$warning: $dark-green;
+$danger: $light-green;
+
+// $link: $pink;
+//$widescreen-enabled: false;
+//$fullhd-enabled: false;
+//$navbar-box-shadow-size: 100px 43px 100px 100px;
+//$navbar-background-color: $dark-white;
+$navbar-padding-horizontal: 6rem;
+$section-padding-medium: 1.5rem 5rem;
+$section-padding: 1.5rem 1.5rem;
+// Update some of Bulma's component variables
+$body-background-color: $off-white;
+//$control-border-width: 2px;
+//$input-border-color: transparent;
+//$input-shadow: none;
+
+@import '~bulma/sass/utilities/_all.sass';
+@import '~bulma';
