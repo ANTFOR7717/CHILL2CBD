@@ -48,11 +48,11 @@ export default {
     '@nuxtjs/bulma',
     '@nuxtjs/style-resources',
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
+    //'@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
+    //'@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content',
+    //'@nuxt/content',
   ],
 
   apollo: {
