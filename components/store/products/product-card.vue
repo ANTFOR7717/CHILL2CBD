@@ -116,7 +116,7 @@ and (max-device-width: 812px) {
   }
 
   .product-card {
-    width: 16.5rem;
+    width: 17.5rem;
 
   }
 
