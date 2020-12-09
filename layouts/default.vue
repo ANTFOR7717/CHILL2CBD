@@ -1,6 +1,8 @@
 <template>
   <div>
     <navbar/>
+    <!-- Floating Action Button -->
+    <!--<div class="fab"> + </div> -->
     <Nuxt/>
     <bfooter/>
   </div>
@@ -10,6 +12,12 @@ import navbar from "@/components/header/navbar";
 import bfooter from "@/components/footer/bfooter";
 
 export default {
+  watch: {
+    selected_json(newValue) {
+      this.$store.commit("setSelectedJson", newValue)
+    }
+  },
+
   name: 'home',
   components: {
     navbar,
@@ -17,64 +25,38 @@ export default {
   }
 
 
+
 }
 
 
 </script>
 <style>
+/* Floating Action Button */
+/*
+.fab {
+  z-index: 10;
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  border-radius: 50%;
+  box-shadow: 0 6px 10px 0 #666;
 
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+  font-size: 50px;
+  line-height: 70px;
+  color: white;
+  text-align: center;
+
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+
+  transition: all 0.1s ease-in-out;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
+.fab:hover {
+  z-index: inherit;
+  box-shadow: 0 6px 14px 0 #666;
+  transform: scale(1.05);
 }
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+*/
 </style>

@@ -12,6 +12,7 @@ export default {
     ]
   },
 
+
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: ['~assets/scss/main.scss',
     '~assets/css/main.css'
@@ -33,15 +34,16 @@ export default {
   ],
   snipcart: {
     // Options available
- // version: /* not required default value is v3.0.23 */
+    version: 'v3.0.26', /* not required default value is v3.0.23 */
     key: 'ZTEyMWFlZGUtNjUzZi00MmYwLTk4ODktY2FjYjAwYWZhYjZhNjM3Mjg3MzA3MTQ3MTE5MTMz' /* required https://app.snipcart.com/dashboard/account/credentials */,
-    addProductBehavior: 'true'/* not required default true */,
+    addProductBehavior: false /* not required default true */,
     locales: {} /* not required */,
     snipcartCustomize: '' /* not required should be absolute path */
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+    // '@nuxtjs/apollo',
     // https://go.nuxtjs.dev/bootstrap
     '@nuxtjs/bulma',
     '@nuxtjs/style-resources',
@@ -52,6 +54,15 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
   ],
+
+  apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint: 'https://graphql.datocms.com',
+        getAuth: () => 'Bearer 32f3dfe410276118faa42255f69299'
+      },
+    }
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},

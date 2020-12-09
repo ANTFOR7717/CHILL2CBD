@@ -45,10 +45,10 @@
       <div class="category tile is-child has-text-centered">
         <article class="category tile is-child notification">
           <span class="title has-text-link-dark">Flowers</span>
-          <div class="mt-1 description size-is-7">
+          <div class="mt-1 description size-is-6">
             <ul style="color: #68baac;">
               <li> &nbsp;40+ Strains&nbsp;|</li>
-              <li>Sativa, Indica, & Hybrid&nbsp;</li>
+              <li class="is-size-7-desktop">Sativa, Indica, & Hybrid&nbsp;</li>
             </ul>
           </div>
           <div class="mt-5">
