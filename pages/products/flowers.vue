@@ -6,6 +6,7 @@
 
     <product-card v-show="page.boolean === false" class="product-cards" v-for="(product, index, name) in data"
                   :id="'snipcart-'+product.sku"
+                  :item_id="product.sku"
                   :name="product.name"
                   :key="product.upc"
                   :url="product.url"
@@ -21,7 +22,6 @@
                       product.prices.split(","),
                       product.url,
                       product.company,
-
                        );'>
 
       {{product.name}}
@@ -33,6 +33,7 @@
 
 
     <product-page v-show="page.boolean === true"
+                  :snip_id='this.$store.getters["getSnip"]'
                   :name='this.$store.getters["getName"]'
                   :sizes='this.$store.getters["getSize"]'
                   :prices='this.$store.getters["getPrice"]'
@@ -114,18 +115,12 @@ export default {
   methods: {
       async show(id, name, sizes, prices, url, company) {
         this.page.boolean = true
+        this.$store.commit("setSnip", id )
         this.$store.commit("setName", name )
         this.$store.commit("setSizes", sizes )
         this.$store.commit("setPrices", prices )
         this.$store.commit("setUrl", url )
         this.$store.commit("setCompany", company )
-
-
-
-
-
-
-
       }
   }
 

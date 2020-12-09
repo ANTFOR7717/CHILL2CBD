@@ -36,10 +36,10 @@
 
 
       <button class="button is-fullwidth snipcart-add-item mt-6"
-
-              :data-item-name="name+''+sizes[amount]"
+              :data-item-id="snip_id+' - '+sizes[amount]"
+              :data-item-name="name+' - '+sizes[amount]"
               :data-item-price="prices[amount]"
-              :data-item-url="url"
+              :data-item-image="url"
               >
         <figure class="image is-32x32">
           <img src="@/assets/images/add-to-cart.svg">
@@ -67,6 +67,7 @@ export default {
     sizes: '',
     description: '',
     company: '',
+    snip_id: '',
   },
   data() {
     return {

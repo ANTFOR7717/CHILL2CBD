@@ -14,6 +14,9 @@ export const state = () => ({
    company: {
      default: "company"
    },
+   snip: {
+     default: "custom"
+  }
 
 
 
@@ -22,6 +25,10 @@ export const state = () => ({
 })
 
 export const mutations = {
+
+  setSnip(state, snip) {
+    state.snip = snip
+  },
 
   setName(state, name) {
     state.name = name
@@ -47,6 +54,10 @@ export const mutations = {
 }
 
 export const getters = {
+
+  getSnip(state) {
+    return state.snip
+  },
 
   getName(state) {
     return state.name

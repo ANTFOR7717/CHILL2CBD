@@ -33,9 +33,9 @@
 
         <button class="button is-fullwidth snipcart-add-item"
                 :data-item-name="name+' - '+buttons[amount]"
-                :data-item-id="item_id"
+                :data-item-id="item_id+' - '+buttons[amount]"
                 :data-item-price="price[amount]"
-                :data-item-url="url"
+                :data-item-image="url"
         >
           <figure class="image is-32x32">
           <img src="@/assets/images/add-to-cart.svg">
