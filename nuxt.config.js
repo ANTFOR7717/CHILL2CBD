@@ -1,5 +1,5 @@
 export default {
-  buildDir: 'dist',
+  // buildDir: 'dist',
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'eccomerce',
@@ -21,7 +21,7 @@ export default {
   ],
   styleResources: {
     scss: ['~assets/scss/main.scss']
-  },
+  },                                                                                                           
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
