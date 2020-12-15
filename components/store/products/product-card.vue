@@ -1,6 +1,6 @@
 <template>
   <li :id="id" class="box product-card">
-    <div style="height: 8rem; width: 14rem;" class="box is-medium container content">
+    <div style="height: 8rem; width: 14rem;" class="box is-medium container content is-vertical-center product">
       <slot></slot>
     </div>
     <span>
@@ -152,6 +152,12 @@ and (max-device-width: 2000px) {
 .product-card {
   max-width: 16.5rem;
   max-height: 37rem;
+}
+
+.is-vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 </style>
