@@ -10,6 +10,7 @@
         <div class="tile is-ancestor">
 
           <div class="tile is-parent">
+            <nuxt-link to="/products/prerolls">
             <div class="category tile is-child">
               <article class="category tile is-child notification">
                 <span class="is-size-7">&nbsp;Shop</span>
@@ -23,8 +24,8 @@
                 </div>
               </article>
             </div>
+            </nuxt-link>
           </div>
-
 
           <div class="tile is-parent">
             <nuxt-link to="/products/flowers">
@@ -44,8 +45,8 @@
             </nuxt-link>
           </div>
 
-
           <div class="tile is-parent">
+            <nuxt-link to="/products/vaporizers">
             <div class="category tile is-child">
               <article class="category tile is-child notification">
                 <span class="is-size-7">&nbsp;Shop</span>
@@ -59,9 +60,11 @@
                 </div>
               </article>
             </div>
+            </nuxt-link>
           </div>
 
           <div class="tile is-parent">
+            <nuxt-link to="/products/concentrates">
             <div class="category tile is-child">
               <article class="category tile is-child notification">
                 <span class="is-size-7">&nbsp;Shop</span>
@@ -75,6 +78,7 @@
                 </div>
               </article>
             </div>
+            </nuxt-link>
           </div>
 
           <div class="tile is-parent">
@@ -94,7 +98,6 @@
           </div>
 
         </div>
-
 
         <div class="tile is-ancestor">
 
@@ -181,7 +184,9 @@
           </div>
 
         </div>
+
       </div>
+
     </div>
 
   </section>

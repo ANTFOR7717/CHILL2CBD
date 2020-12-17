@@ -11,7 +11,7 @@
 
     </span>
 
-    <p class="is-size-7 is-family-monospace">{{company}}</p>
+    <p style="" class="is-size-7 is-family-monospace mt-2">{{company}}</p>
 
     <figure class="image is-4by5">
       <img style="border-radius: 10px; max-width: 15rem; max-height: 15rem" :src="url" alt="product">
@@ -21,7 +21,7 @@
       <button @click="decrease()" class="button is-rounded is-small level-item has-text-centered">
         <img class="add-subtract" src="@/assets/images/minus.svg">
       </button>
-      <span class="level-item has-text-centered">
+      <span class="level-item has-text-centered area">
         {{quantity}}
       </span>
       <button @click="quantity = quantity + 1" class="button is-rounded is-small level-item has-text-centered">
@@ -116,7 +116,7 @@ and (max-device-width: 812px) {
   }
 
   .product-card {
-    width: 17.5rem;
+    width: 19.5rem;
 
   }
 
@@ -151,13 +151,17 @@ and (max-device-width: 2000px) {
 
 .product-card {
   max-width: 16.5rem;
-  max-height: 37rem;
+  max-height: 39rem;
 }
 
 .is-vertical-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.area {
+  padding: 5px;
 }
 
 </style>

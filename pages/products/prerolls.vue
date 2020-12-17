@@ -64,7 +64,7 @@ import ProductBar from "@/components/store/products/product-bar";
 
 const FLOWER_PRODUCT_QUERY = `
 {
-  allProducts {
+  allPrerolls {
     name
     company
     prices
@@ -82,7 +82,7 @@ const FLOWER_PRODUCT_QUERY = `
 
 export default {
   components: {ProductBar, ProductPage, CategoriesHero, ProductCard},
-  name: "flowers",
+  name: "prerolls",
 
   data() {
     return {
@@ -103,7 +103,7 @@ export default {
       let products = await request({
         query: FLOWER_PRODUCT_QUERY,
       })
-      this.data = products.allProducts;
+      this.data = products.allPrerolls;
 
     } catch (e) {
       this.error = e;
