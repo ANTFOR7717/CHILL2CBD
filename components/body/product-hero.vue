@@ -35,7 +35,9 @@
             <figure class="image container is-256x256">
               <img src="@/assets/images/edibles.png">
             </figure>
+            <nuxt-link to="/products/edibles">
             <button class="button is-danger">View Edibles</button>
+            </nuxt-link>
           </div>
         </article>
       </div>
@@ -48,14 +50,16 @@
           <div class="mt-1 description size-is-6">
             <ul style="color: #68baac;">
               <li> &nbsp;40+ Strains&nbsp;|</li>
-              <li class="is-size-7-desktop">Sativa, Indica, & Hybrid&nbsp;</li>
+              <li style="padding-right:1rem;" class="is-size-6-desktop">Sativa, Indica, & Hybrid&nbsp;</li>
             </ul>
           </div>
           <div class="mt-5">
             <figure class="image container is-256x256">
               <img src="@/assets/images/flower.png">
             </figure>
+            <nuxt-link to="/products/flowers">
             <button class="button is-danger">View Strains</button>
+            </nuxt-link>
           </div>
         </article>
       </div>
@@ -77,7 +81,9 @@
             <figure class="image container is-256x256">
               <img src='@/assets/images/concentrates.png'>
             </figure>
+            <nuxt-link to="/products/concentrates">
             <button class="button is-danger">View Extracts</button>
+            </nuxt-link>
           </div>
         </article>
       </div>
@@ -102,7 +108,9 @@
             <figure class="image container is-256x256">
               <img src="@/assets/images/vaporizers.png">
             </figure>
+            <nuxt-link to="/products/vaporizers">
             <button class="button is-danger">View Vapes</button>
+            </nuxt-link>
           </div>
         </article>
       </div>
@@ -123,7 +131,9 @@
             <figure class="image container is-256x256">
               <img src="@/assets/images/accessories.png">
             </figure>
+            <nuxt-link to="/products/accessories">
             <button class="button is-danger">View Accessories</button>
+            </nuxt-link>
           </div>
         </article>
       </div>
@@ -144,7 +154,9 @@
             <figure class="image container is-256x256">
               <img src="@/assets/images/topicals.png">
             </figure>
+            <nuxt-link to="/products/pets">
             <button class="button is-danger">View Pets</button>
+            </nuxt-link>
           </div>
         </article>
       </div>

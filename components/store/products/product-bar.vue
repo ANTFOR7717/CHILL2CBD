@@ -3,29 +3,29 @@
 <div style="border-radius: 1rem;" class="box">
   <nav class="tabs is-centered">
     <ul class="level-item">
-      <li class="is-active">
-       <a>Flowers</a>
+      <li>
+       <nuxt-link to="/products/prerolls">Pre-rolls</nuxt-link>
       </li>
       <li>
-        <a>Pre-rolls</a>
+        <nuxt-link to="/products/flowers">Flowers</nuxt-link>
       </li>
       <li>
-        <a>Pre-rolls</a>
+        <nuxt-link to="/products/vaporizers">Vaporizers</nuxt-link>
       </li>
       <li>
-        <a>Pre-rolls</a>
+        <nuxt-link to="/products/concentrates">Concentrates</nuxt-link>
       </li>
       <li>
-        <a>Pre-rolls</a>
+        <nuxt-link to="/products/accessories">Accessories</nuxt-link>
       </li>
       <li>
-        <a>Pre-rolls</a>
+        <nuxt-link to="/products/edibles">Edibles</nuxt-link>
       </li>
       <li>
-        <a>Pre-rolls</a>
+        <nuxt-link to="/products/topicals">Topicals</nuxt-link>
       </li>
       <li>
-        <a>Pre-rolls</a>
+        <nuxt-link to="/products/pets">Pets</nuxt-link>
       </li>
     </ul>
   </nav>

@@ -82,6 +82,7 @@
           </div>
 
           <div class="tile is-parent">
+            <nuxt-link to="/products/accessories">
             <div class="category tile is-child">
               <article class="category tile is-child notification">
                 <span class="is-size-7">&nbsp;Shop</span>
@@ -95,23 +96,21 @@
                 </div>
               </article>
             </div>
+            </nuxt-link>
           </div>
+
+
 
         </div>
 
         <div class="tile is-ancestor">
 
           <div class="tile is-parent">
-
+            <nuxt-link to="/products/edibles">
             <div class="category tile is-child">
-
               <article class="category tile is-child notification">
-
                 <span class="is-size-7">&nbsp;Shop</span>
-
                 <h1 class="is-size-4">Edibles</h1>
-
-
                 <div class="">
                   <figure class="image container is-96x96px">
                     <img class="" src="@/assets/images/edibles.png">
@@ -119,15 +118,15 @@
                 </div>
               </article>
             </div>
+            </nuxt-link>
           </div>
 
           <div class="tile is-parent">
+            <nuxt-link to="/products/topicals">
             <div class="category tile is-child">
               <article class="category tile is-child notification">
                 <span class="is-size-7">&nbsp;Shop</span>
                 <h1 style="" class="is-size-4">Topicals</h1>
-
-
                 <div class="">
                   <figure class="image container is-96x96px">
                     <img class="" src="@/assets/images/topicals.png" alt="none">
@@ -135,9 +134,11 @@
                 </div>
               </article>
             </div>
+            </nuxt-link>
           </div>
 
           <div class="tile is-parent">
+            <nuxt-link to="/products/pets">
             <div class="category tile is-child">
               <article class="category tile is-child notification">
                 <span class="is-size-7">&nbsp;Shop</span>
@@ -149,6 +150,7 @@
                 </div>
               </article>
             </div>
+            </nuxt-link>
           </div>
 
           <div class="tile is-parent is-invisible is-hidden-touch">
@@ -188,6 +190,7 @@
       </div>
 
     </div>
+
 
   </section>
 
