@@ -9,7 +9,12 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Nunito:wght@200;300;400;600;700;800;900&display=swap'
+      }
+
     ]
   },
 
@@ -21,7 +26,7 @@ export default {
   ],
   styleResources: {
     scss: ['~assets/scss/main.scss']
-  },                                                                                                           
+  },
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
