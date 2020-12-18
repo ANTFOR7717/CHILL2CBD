@@ -2,7 +2,9 @@
   <div>
     <navbar/>
     <!-- Floating Action Button -->
-    <!--<div class="fab"> + </div> -->
+    <div class="fab snipcart-checkout">
+
+  </div>
     <Nuxt/>
     <bfooter/>
   </div>
@@ -32,31 +34,39 @@ export default {
 </script>
 <style>
 /* Floating Action Button */
-/*
-.fab {
-  z-index: 10;
-  width: 70px;
-  height: 70px;
-  background-color: red;
-  border-radius: 50%;
-  box-shadow: 0 6px 10px 0 #666;
 
-  font-size: 50px;
-  line-height: 70px;
-  color: white;
-  text-align: center;
+@media only screen and (max-width: 600px) {
 
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
+  .fab {
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    background-color: #f5f5f5;
+    background-image: url("https://raw.githubusercontent.com/ANTFOR7717/SVG/master/cart.svg");
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0 6px 10px 0 #666;
 
-  transition: all 0.1s ease-in-out;
+    font-size: 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+
+    transition: all 0.1s ease-in-out;
+  }
+
+  .fab:hover {
+    z-index: 10;
+    box-shadow: 0 6px 14px 0 #666;
+    transform: scale(1.05);
+    background-image: url("https://raw.githubusercontent.com/ANTFOR7717/SVG/master/cart.svg");
+  }
+
 }
-
-.fab:hover {
-  z-index: inherit;
-  box-shadow: 0 6px 14px 0 #666;
-  transform: scale(1.05);
-}
-*/
 </style>

@@ -3,7 +3,7 @@
     <slot></slot>
     <div class="media-content has-text-centered">
       <section class="section container is-widescreen is-medium">
-      <div style="background-color: #42a390" class="box">
+      <div style="background-color: #EDD1B0" class="box">
   <div class="columns">
     <div class="column">
       <figure class="box image is is-4by5">
