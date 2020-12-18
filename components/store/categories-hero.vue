@@ -205,6 +205,7 @@ export default {
 
 <style scoped>
 
+
 .category {
   border-radius: 50px;
 }

@@ -3,17 +3,19 @@
     <slot></slot>
     <div class="media-content has-text-centered">
       <section class="section container is-widescreen is-medium">
-      <div class="box">
+      <div style="background-color: #42a390" class="box">
   <div class="columns">
     <div class="column">
-      <figure class="image is is-4by5">
+      <figure class="box image is is-4by5">
         <img :src="url">
       </figure>
+      <p class="box is-size-7 is-family-monospace">{{company}}</p>
     </div>
     <div class="column is-three-fifths">
-      <p class="mt-3 is-size-7 is-family-monospace">{{ company }}</p>
-      <h1 class="mt-4 title is-size-1">{{ name }}</h1>
-      <h2 class="subtitle is-size-5">{{ description }}</h2>
+      <h1 class="box title is-size-1">{{ name }}</h1>
+      <div></div>
+      <h2 class="box pt-4 subtitle is-size-5">{{ description }}</h2>
+      <span class="box">
       <span>
       <a class="buttons-card button ml-1" :id="i" :value="index" v-for="(i, index) in sizes" @click="amount = index">
         {{i}}
@@ -35,7 +37,7 @@
         <h1 class="title is-size-2 is-size-3-mobile price mt-5">${{prices[amount]}}</h1>
 
 
-      <button class="button is-fullwidth snipcart-add-item mt-6"
+      <button class="button is-fullwidth snipcart-add-item mt-3"
               :data-item-id="snip_id+' - '+sizes[amount]"
               :data-item-name="name+' - '+sizes[amount]"
               :data-item-price="prices[amount]"
@@ -46,7 +48,7 @@
         </figure>
       </button>
 
-
+      </span>
     </div>
   </div>
 </div>

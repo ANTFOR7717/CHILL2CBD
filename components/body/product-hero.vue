@@ -35,7 +35,7 @@
             <figure class="image container is-256x256">
               <img src="@/assets/images/edibles.png">
             </figure>
-            <nuxt-link to="/products/edibles">
+            <nuxt-link style="text-decoration: none;" to="/products/edibles">
             <button class="button is-danger">View Edibles</button>
             </nuxt-link>
           </div>
@@ -57,7 +57,7 @@
             <figure class="image container is-256x256">
               <img src="@/assets/images/flower.png">
             </figure>
-            <nuxt-link to="/products/flowers">
+            <nuxt-link style="text-decoration: none;" to="/products/flowers">
             <button class="button is-danger">View Strains</button>
             </nuxt-link>
           </div>
@@ -81,7 +81,7 @@
             <figure class="image container is-256x256">
               <img src='@/assets/images/concentrates.png'>
             </figure>
-            <nuxt-link to="/products/concentrates">
+            <nuxt-link style="text-decoration: none;" to="/products/concentrates">
             <button class="button is-danger">View Extracts</button>
             </nuxt-link>
           </div>
@@ -108,7 +108,7 @@
             <figure class="image container is-256x256">
               <img src="@/assets/images/vaporizers.png">
             </figure>
-            <nuxt-link to="/products/vaporizers">
+            <nuxt-link style="text-decoration: none;" to="/products/vaporizers">
             <button class="button is-danger">View Vapes</button>
             </nuxt-link>
           </div>
@@ -131,7 +131,7 @@
             <figure class="image container is-256x256">
               <img src="@/assets/images/accessories.png">
             </figure>
-            <nuxt-link to="/products/accessories">
+            <nuxt-link style="text-decoration: none;" to="/products/accessories">
             <button class="button is-danger">View Accessories</button>
             </nuxt-link>
           </div>
@@ -154,7 +154,7 @@
             <figure class="image container is-256x256">
               <img src="@/assets/images/topicals.png">
             </figure>
-            <nuxt-link to="/products/pets">
+            <nuxt-link style="text-decoration: none;" to="/products/pets">
             <button class="button is-danger">View Pets</button>
             </nuxt-link>
           </div>
@@ -170,17 +170,12 @@
 <script>
 export default {
 name: "product-hero",
-  data() {
-  return {
-    url2: 'https://bulma.io/images/placeholders/640x480.png'
-
-  }
-  }
 
 }
 </script>
 
 <style scoped>
+
 
 .description {
   display: table;

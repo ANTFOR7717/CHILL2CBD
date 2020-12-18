@@ -16,6 +16,9 @@ export const state = () => ({
    },
    snip: {
      default: "custom"
+  },
+  description: {
+    default: "description"
   }
 
 
@@ -50,6 +53,9 @@ export const mutations = {
     state.company = company
   },
 
+  setDescription(state, description) {
+    state.description = description
+  },
 
 }
 
@@ -77,6 +83,10 @@ export const getters = {
 
   getCompany(state) {
     return state.company
+  },
+
+  getDescription(state) {
+    return state.description
   },
 
 }

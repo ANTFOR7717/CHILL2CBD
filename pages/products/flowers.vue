@@ -23,6 +23,7 @@
                       product.prices.split(","),
                       product.url,
                       product.company,
+                      product.description,
                        );'>
 
       {{product.name}}
@@ -40,7 +41,7 @@
                   :prices='this.$store.getters["getPrice"]'
                   :url='this.$store.getters["getUrl"]'
                   :company='this.$store.getters["getCompany"]'
-                  :description="'Some Cool text about the product might be very long but not gonna stop me'">
+                  :description='this.$store.getters["getDescription"]'>
       <button @click="page.boolean = false" class="button"> < </button>
     </product-page>
 
@@ -72,6 +73,7 @@ const FLOWER_PRODUCT_QUERY = `
     url
     sku
     upc
+    description
 
 }
 
@@ -114,7 +116,7 @@ export default {
   },
 
   methods: {
-      async show(id, name, sizes, prices, url, company) {
+      async show(id, name, sizes, prices, url, company, description) {
         this.page.boolean = true
         this.$store.commit("setSnip", id )
         this.$store.commit("setName", name )
@@ -122,6 +124,7 @@ export default {
         this.$store.commit("setPrices", prices )
         this.$store.commit("setUrl", url )
         this.$store.commit("setCompany", company )
+        this.$store.commit("setDescription", description )
       }
   }
 
