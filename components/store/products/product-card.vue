@@ -132,8 +132,6 @@ and (max-device-width: 2000px) {
     margin-right: 2px;
   }
 
-
-
 }
 
 

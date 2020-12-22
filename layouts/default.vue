@@ -5,6 +5,7 @@
     <div class="fab snipcart-checkout">
 
   </div>
+    <product-bar v-show='this.$route.path.includes("/products")'/>
     <Nuxt/>
     <bfooter/>
   </div>
@@ -12,6 +13,7 @@
 <script>
 import navbar from "@/components/header/navbar";
 import bfooter from "@/components/footer/bfooter";
+import ProductBar from "@/components/store/products/product-bar";
 
 export default {
   watch: {
@@ -22,6 +24,7 @@ export default {
 
   name: 'home',
   components: {
+    ProductBar,
     navbar,
     bfooter,
   }
@@ -44,7 +47,7 @@ export default {
     background-color: #f5f5f5;
     background-image: url("https://raw.githubusercontent.com/ANTFOR7717/SVG/master/cart.svg");
     background-repeat: no-repeat;
-    background-size: 60% 60%;
+    background-size: 40% 40%;
     background-position: center;
     border-radius: 50%;
     box-shadow: 0 6px 10px 0 #666;

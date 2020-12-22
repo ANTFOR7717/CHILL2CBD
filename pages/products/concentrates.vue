@@ -1,6 +1,5 @@
 <template>
   <section>
-    <product-bar/>
   <article class="media">
     <div class="media-content has-text-centered">
   <section class="section container is-widescreen is-medium">
@@ -16,7 +15,7 @@
                   :buttons='product.sizes.split(",")'
                   >
 
-      <a class="has-text-weight-bold"
+      <a style="color: #364f3a;" class="has-text-weight-bold"
          @click='show(product.sku,
                       product.name,
                       product.sizes.split(","),

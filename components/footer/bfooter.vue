@@ -1,7 +1,7 @@
 <template>
 
   <section class="section container is-widescreen">
-<footer class="footer">
+<footer  class="footer">
   <div class="content has-text-centered">
     <p>
       <strong>CHILL2CBD</strong> by <a href="https://afresolutions.com">AFResolutions</a>

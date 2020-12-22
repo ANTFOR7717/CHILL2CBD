@@ -1,7 +1,7 @@
 <template>
   <section class="section container is-widescreen">
     <div class="container">
-  <nav id="navbar" class="navbar is-spaced" role="navigation" aria-label="main navigation">
+  <nav style="" id="navbar" class="navbar is-spaced" role="navigation" aria-label="main navigation">
     <div class="navbar-brand is-spaced">
       <nuxt-link to="/" class="navbar-item is-spaced">
         <img src="@/assets/images/Chill2CBD.svg" width="112" height="28">
@@ -33,17 +33,26 @@
 
           <div class="navbar-dropdown">
             <a class="navbar-item">
-              About
+              Accessories
             </a>
             <a class="navbar-item">
-              Jobs
+              Concentrates
             </a>
             <a class="navbar-item">
-              Contact
+              Edibles
+            </a>
+            <a class="navbar-item">
+              Flowers
+            </a>
+            <a class="navbar-item">
+              Pets
+            </a>
+            <a class="navbar-item">
+              Vaporizers
             </a>
             <hr class="navbar-divider">
             <a class="navbar-item">
-              Report an issue
+              Featured
             </a>
           </div>
         </div>

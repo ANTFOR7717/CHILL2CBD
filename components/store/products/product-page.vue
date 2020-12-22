@@ -3,18 +3,18 @@
     <slot></slot>
     <div class="media-content has-text-centered">
       <section class="section container is-widescreen is-medium">
-      <div style="background-color: #EDD1B0" class="box">
+      <div style="background-color: #f2f0f1" class="box">
   <div class="columns">
     <div class="column">
       <figure class="box image is is-4by5">
-        <img :src="url">
+        <img style="border-radius: 10rem" :src="url">
       </figure>
       <p class="box is-size-7 is-family-monospace">{{company}}</p>
     </div>
     <div class="column is-three-fifths">
-      <h1 class="box title is-size-1">{{ name }}</h1>
+      <h1 style="color: #364f3a;" class="box title is-size-2-desktop has-text-centered-desktop has-text-weight-bold">{{ name }}</h1>
       <div></div>
-      <h2 class="box pt-4 subtitle is-size-5">{{ description }}</h2>
+      <h2 class="box pt-4 subtitle is-size-5 has-text-left-desktop">{{ description }}</h2>
       <span class="box">
       <span>
       <a class="buttons-card button ml-1" :id="i" :value="index" v-for="(i, index) in sizes" @click="amount = index">

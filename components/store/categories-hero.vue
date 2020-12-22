@@ -11,6 +11,7 @@
 
           <div class="tile is-parent">
             <nuxt-link to="/products/prerolls">
+              <!--style="min-height: 177px; min-width: 207px;"-->
             <div class="category tile is-child">
               <article class="category tile is-child notification">
                 <span class="is-size-7">&nbsp;Shop</span>

@@ -1,5 +1,5 @@
 <template>
-<section class="section container is-widescreen is-medium">
+<section class="section container is-widescreen is-medium mt-5">
 
   <div class="tile is-ancestor">
 
@@ -7,8 +7,8 @@
 
       <article class="category tile is-child notification is-warning has-text-centered ">
       <img class="mt-5" src="@/assets/images/cbd-oil.svg" width="52" height="52" alt="none">
-      <p class="title has-text-weight-light">We offer a wide range of cannabis<br> products for your health and wellness.</p>
-      <p class="has-text-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="title has-text-weight-light">We offer a wide range of hemp<br> products for your health and wellness.</p>
+      <p class="has-text-weight-light">We are committed not only to providing CBD of the highest quality, but also to supplying you with other nutrients that are essential to your health.</p>
       <div class="mb-5 content">
         <!-- Content -->
       </div>
