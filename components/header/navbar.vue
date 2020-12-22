@@ -33,26 +33,26 @@
 
           <div class="navbar-dropdown">
             <a class="navbar-item">
-              Accessories
+              <h1>Accessories</h1>
             </a>
             <a class="navbar-item">
-              Concentrates
+              <h1>Concentrates</h1>
             </a>
             <a class="navbar-item">
-              Edibles
+              <h1>Edibles</h1>
             </a>
             <a class="navbar-item">
-              Flowers
+              <h1>Flowers</h1>
             </a>
             <a class="navbar-item">
-              Pets
+              <h1>Pets</h1>
             </a>
             <a class="navbar-item">
-              Vaporizers
+              <h1>Vaporizers</h1>
             </a>
             <hr class="navbar-divider">
             <a class="navbar-item">
-              Featured
+              <h1>Featured</h1>
             </a>
           </div>
         </div>
@@ -62,7 +62,7 @@
         <div class="navbar-item">
           <div class="buttons">
             <nuxt-link to="/store" class="button is-primary">
-              <strong>Store</strong>
+              <h1><strong>Store</strong></h1>
             </nuxt-link>
             <a class="button is-light snipcart-checkout" data-config-modal-style="side">
               <figure class="image is-24x24">
