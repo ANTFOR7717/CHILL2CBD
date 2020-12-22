@@ -7,7 +7,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Discover THC-free, superior CBD products. ' +
-          'Featuring award-winning, high-quality hemp oil. Feel & taste the difference. Eliminate anxiety with' +
+          'Featuring award-winning, high-quality hemp oil. Feel & taste the difference. Eliminate anxiety with ' +
           'curated CBD products for the THC sensitive.\n' }
     ],
     link: [
