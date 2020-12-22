@@ -16,12 +16,12 @@
           </div>
 
         <div class="mt-4">
-          <span class="is-size-4-mobile">
+          <h2 class="is-size-4-mobile">
             Combination of the best hemp with the industry's most sophisticated manufacturing methods.
-          </span>
+          </h2>
         </div>
 
-        <nuxt-link to="/store" class="button mt-6 is-rounded is-danger is-large">Shop Now</nuxt-link>
+        <nuxt-link to="/store" class="button mt-6 is-rounded is-danger is-large"><h1>Shop Now</h1></nuxt-link>
       </div>
       <!--
       <div class="column auto is-hidden-touch">

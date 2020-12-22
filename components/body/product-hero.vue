@@ -8,7 +8,7 @@
       <article class="category tile is-child notification is-warning has-text-centered ">
       <img class="mt-5" src="@/assets/images/cbd-oil.svg" width="52" height="52" alt="none">
       <h1 class="title has-text-weight-light">We offer a wide range of hemp<br> products for your health and wellness.</h1>
-      <p class="has-text-weight-light">We are committed not only to providing CBD of the highest quality, but also to supplying you with other nutrients that are essential to your health.</p>
+      <h2 class="has-text-weight-light">We are committed not only to providing CBD of the highest quality, but also to supplying you with other nutrients that are essential to your health.</h2>
       <div class="mb-5 content">
         <!-- Content -->
       </div>
@@ -36,7 +36,7 @@
               <img src="@/assets/images/edibles.png">
             </figure>
             <nuxt-link style="text-decoration: none;" to="/products/edibles">
-            <button class="button is-danger">View Edibles</button>
+            <h2 class="button is-danger">View Edibles</h2>
             </nuxt-link>
           </div>
         </article>
@@ -58,7 +58,7 @@
               <img src="@/assets/images/flower.png">
             </figure>
             <nuxt-link style="text-decoration: none;" to="/products/flowers">
-            <button class="button is-danger">View Strains</button>
+            <h2 class="button is-danger">View Strains</h2>
             </nuxt-link>
           </div>
         </article>
@@ -82,7 +82,7 @@
               <img src='@/assets/images/concentrates.png'>
             </figure>
             <nuxt-link style="text-decoration: none;" to="/products/concentrates">
-            <button class="button is-danger">View Extracts</button>
+            <h2 class="button is-danger">View Extracts</h2>
             </nuxt-link>
           </div>
         </article>
@@ -109,7 +109,7 @@
               <img src="@/assets/images/vaporizers.png">
             </figure>
             <nuxt-link style="text-decoration: none;" to="/products/vaporizers">
-            <button class="button is-danger">View Vapes</button>
+            <h2 class="button is-danger">View Vapes</h2>
             </nuxt-link>
           </div>
         </article>
@@ -132,7 +132,7 @@
               <img src="@/assets/images/accessories.png">
             </figure>
             <nuxt-link style="text-decoration: none;" to="/products/accessories">
-            <button class="button is-danger">View Accessories</button>
+            <h2 class="button is-danger">View Accessories</h2>
             </nuxt-link>
           </div>
         </article>
@@ -155,7 +155,7 @@
               <img src="@/assets/images/topicals.png">
             </figure>
             <nuxt-link style="text-decoration: none;" to="/products/pets">
-            <button class="button is-danger">View Pets</button>
+            <h2 class="button is-danger">View Pets</h2>
             </nuxt-link>
           </div>
         </article>
