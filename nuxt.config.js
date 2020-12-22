@@ -2,13 +2,14 @@ export default {
   // buildDir: 'dist',
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'CBD Products for Anxiety - THC-Free | Chill2CBD',
+    title: 'Hemp Derived CBD Products for Anxiety - THC-Free | Chill2CBD',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Discover THC-free, superior CBD products. ' +
           'Featuring award-winning, high-quality hemp oil. Feel & taste the difference. Eliminate anxiety with ' +
-          'curated CBD products for the THC sensitive.\n' }
+          'curated CBD products for the THC sensitive. View a selection of edibles, tinctures, concentrates, flowers,' +
+          'vaporizers, and options for pets. \n' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
