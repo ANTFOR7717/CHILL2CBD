@@ -7,7 +7,7 @@
 
       <article class="category tile is-child notification is-warning has-text-centered ">
       <img class="mt-5" src="@/assets/images/cbd-oil.svg" width="52" height="52" alt="none">
-      <p class="title has-text-weight-light">We offer a wide range of hemp<br> products for your health and wellness.</p>
+      <h1 class="title has-text-weight-light">We offer a wide range of hemp<br> products for your health and wellness.</h1>
       <p class="has-text-weight-light">We are committed not only to providing CBD of the highest quality, but also to supplying you with other nutrients that are essential to your health.</p>
       <div class="mb-5 content">
         <!-- Content -->
@@ -23,7 +23,7 @@
     <div class="tile is-parent">
       <div class="category tile is-child has-text-centered">
         <article class="category tile is-child is-success notification">
-          <span class="title has-text-link-dark">Edibles</span>
+          <h1 class="title category-title has-text-link-dark">Edibles</h1>
           <div class="mt-1 description size-is-7">
             <ul style="color: #68baac;">
               <li> &nbsp;Oils&nbsp;</li>
@@ -46,7 +46,7 @@
     <div class="tile is-parent">
       <div class="category tile is-child has-text-centered">
         <article class="category tile is-child notification">
-          <span class="title has-text-link-dark">Flowers</span>
+          <h1 class="title has-text-link-dark category-title">Flowers</h1>
           <div class="mt-1 description size-is-6">
             <ul style="color: #68baac;">
               <li> &nbsp;40+ Strains&nbsp;|</li>
@@ -68,7 +68,7 @@
     <div class="tile is-parent">
       <div class="tile is-child has-text-centered">
         <article class="category tile is-child is-link notification">
-          <span class="title">Concentrates</span>
+          <h1 class="title category-title">Concentrates</h1>
           <div class="mt-1 description size-is-7">
             <ul style="color: #d3e8de;">
               <li> &nbsp;Oils&nbsp;|</li>
@@ -96,7 +96,7 @@
     <div class="tile is-parent">
       <div class="tile is-child has-text-centered">
         <article class="category tile is-child notification" style="background-color: #373E40">
-          <span class="title has-text-white">Vaporizers</span>
+          <h1 class="category-title title has-text-white">Vaporizers</h1>
           <div class="mt-1 description size-is-7">
             <ul style="color: #d3e8de;">
               <li> &nbsp;Juice&nbsp;|</li>
@@ -119,7 +119,7 @@
     <div class="tile is-parent">
       <div class="category tile is-child has-text-centered">
         <article style="background-color: #316B52;" class="category tile is-child notification">
-          <span class="title has-text-white">Accessories</span>
+          <h1 class="category-title title has-text-white">Accessories</h1>
           <div class="mt-1 description size-is-7">
             <ul style="color: #68baac;">
               <li> &nbsp;Batteries&nbsp;|</li>
@@ -142,7 +142,7 @@
     <div class="tile is-parent">
       <div class="category tile is-child has-text-centered">
         <article style="background-color: #A26769" class="category tile is-child is-success notification">
-          <span class="title has-text-white">Pets</span>
+          <h1 class="category-title title has-text-white">Pets</h1>
           <div class="mt-1 description size-is-7">
             <ul class="has-text-white" style="">
               <li> &nbsp;Treats&nbsp;</li>
@@ -187,6 +187,11 @@ ul, li {
 }
 .category {
   border-radius: 50px;
+}
+
+.category-title {
+  padding: 0;
+  margin: 0;
 }
 
 </style>
