@@ -84,7 +84,20 @@ const FLOWER_PRODUCT_QUERY = `
 
 export default {
   components: {ProductBar, ProductPage, CategoriesHero, ProductCard},
-  name: "flowers",
+  name: "accessories",
+
+  head: {
+    title: 'Shop Best CBD Accessories for Anxiety - THC-Free | Chill2CBD | Accessories',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Shop professionally curated, lab-tested CBD and hemp flower accessories provided through ' +
+          'Chill2CBD, for the best CBD products for anxiety.' +
+          'View a collection of batteries, hand pipes, grinders and other smoking accessories.'
+      }
+    ],
+  },
 
   data() {
     return {
@@ -114,7 +127,6 @@ export default {
 
 
   },
-
   methods: {
       async show(id, name, sizes, prices, url, company, description) {
         this.page.boolean = true
@@ -127,9 +139,6 @@ export default {
         this.$store.commit("setDescription", description )
       }
   }
-
-
-
 
 };
 

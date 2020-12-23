@@ -83,7 +83,19 @@ const FLOWER_PRODUCT_QUERY = `
 
 export default {
   components: {ProductBar, ProductPage, CategoriesHero, ProductCard},
-  name: "concentrates",
+  name: "vaporizers",
+  head: {
+    title: 'Shop Best CBD Vaporizers for Anxiety - THC-Free | Chill2CBD | Vaporizers',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Shop professionally curated, lab-tested CBD and hemp flower vaporizers provided through ' +
+          'Chill2CBD, for the best CBD products for anxiety.' +
+          'View a collection of vaporizers from disposables, kits, juices and other vaporizers.'
+      }
+    ],
+  },
 
   data() {
     return {

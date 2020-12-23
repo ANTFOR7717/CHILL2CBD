@@ -83,7 +83,19 @@ const FLOWER_PRODUCT_QUERY = `
 
 export default {
   components: {ProductBar, ProductPage, CategoriesHero, ProductCard},
-  name: "flowers",
+  name: "topicals",
+  head: {
+    title: 'Shop Best CBD Topicals for Anxiety - THC-Free | Chill2CBD | Topicals',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Shop professionally curated, lab-tested CBD and hemp flower topicals provided through ' +
+          'Chill2CBD, for the Best CBD Products for Anxiety.' +
+          'View a collection of topicals from creams, balms, salves, crumble and other topicals.'
+      }
+    ],
+  },
 
   data() {
     return {

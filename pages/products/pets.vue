@@ -84,7 +84,19 @@ const FLOWER_PRODUCT_QUERY = `
 
 export default {
   components: {ProductBar, ProductPage, CategoriesHero, ProductCard},
-  name: "flowers",
+  name: "pets",
+  head: {
+    title: 'Shop Best CBD for Pets Anxiety - THC-Free | Chill2CBD | Pets',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Shop professionally curated, lab-tested CBD and hemp flower products for pets provided through ' +
+          'Chill2CBD, for the best CBD products for anxiety.' +
+          'View a collection of products for pets from, treats, tinctures, oils, and other pet products.'
+      }
+    ],
+  },
 
   data() {
     return {

@@ -86,6 +86,19 @@ export default {
   components: {ProductBar, ProductPage, CategoriesHero, ProductCard},
   name: "concentrates",
 
+  head: {
+    title: 'Shop Best CBD Concentrates for Anxiety - THC-Free | Chill2CBD | Accessories',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Shop professionally curated, lab-tested CBD and hemp flower concentrates provided through ' +
+          'Chill2CBD, for the best CBD products for anxiety.' +
+          'View a collection of concentrates, waxes, shatter, isolates, crumble and other concentrates.'
+      }
+    ],
+  },
+
   data() {
     return {
       sizes: null,

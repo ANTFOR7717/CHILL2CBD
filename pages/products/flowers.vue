@@ -84,6 +84,18 @@ const FLOWER_PRODUCT_QUERY = `
 export default {
   components: {ProductBar, ProductPage, CategoriesHero, ProductCard},
   name: "flowers",
+  head: {
+    title: 'Shop Best CBD Flowers for Anxiety - THC-Free | Chill2CBD | Accessories',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Shop professionally curated, lab-tested CBD and hemp flower provided through ' +
+          'Chill2CBD, for the best CBD Products for Anxiety.' +
+          'View a curated collection of strains, with indica, sativa and hybrid properties.'
+      }
+    ],
+  },
 
   data() {
     return {

@@ -84,7 +84,19 @@ const FLOWER_PRODUCT_QUERY = `
 
 export default {
   components: {ProductBar, ProductPage, CategoriesHero, ProductCard},
-  name: "flowers",
+  name: "edibles",
+  head: {
+    title: 'Shop Best CBD Edibles for Anxiety - THC-Free | Chill2CBD | Accessories',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Shop professionally curated, lab-tested CBD and hemp flower edibles provided through' +
+          'Chill2CBD, for the best CBD products for anxiety.' +
+          'View a collection of spreads, toppings, candies, drinks and other THC-free edibles.'
+      }
+    ],
+  },
 
   data() {
     return {
