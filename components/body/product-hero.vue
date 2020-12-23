@@ -1,12 +1,12 @@
 <template>
-<section class="section container is-widescreen is-medium mt-5">
+<section class="section container is-widescreen is-medium">
 
   <div class="tile is-ancestor">
 
     <div class="tile is-parent">
 
       <article class="category tile is-child notification is-warning has-text-centered ">
-      <img class="mt-5" src="@/assets/images/cbd-oil.svg" width="52" height="52" alt="none">
+      <img class="mt-3" src="@/assets/images/cbd-oil.svg" width="52" height="52" alt="none">
       <h1 class="title has-text-weight-light">We offer a wide range of hemp<br> products for your health and wellness.</h1>
       <h2 class="has-text-weight-light">We are committed not only to providing CBD of the highest quality, but also to supplying you with other nutrients that are essential to your health.</h2>
       <div class="mb-5 content">
@@ -192,6 +192,11 @@ ul, li {
 .category-title {
   padding: 0;
   margin: 0;
+}
+
+.slogan {
+  margin-top: -5rem;
+  padding: 0;
 }
 
 </style>
