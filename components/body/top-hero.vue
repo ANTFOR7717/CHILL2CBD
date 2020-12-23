@@ -47,8 +47,9 @@ name: "top-hero"
 @media only screen and (max-width: 400px) {
 
   .main-cta {
-    margin-top: -3rem;
-
+    margin-top: -1rem;
+    margin-left: -3rem;
+    margin-right: -3rem;
   }
 }
 </style>
