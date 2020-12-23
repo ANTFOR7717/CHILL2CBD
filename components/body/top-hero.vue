@@ -1,12 +1,12 @@
 <template>
   <section class="section container is-widescreen is-medium">
-<div class="hero">
+<div class="hero main-cta">
 <div class="hero-body">
   <div class="container">
     <div class="columns is-gapless is-multiline is-mobile">
       <div class="column auto"></div>
       <div class="column is-three-quarters">
-      <h1 style="color: #364f3a; line-height: 100%;" class="title is-size-1-mobile is-size-1-desktop has-text-weight-bold">
+      <h1 style="color: #364f3a; line-height: 100%;" class="title is-size-2-mobile is-size-1-desktop has-text-weight-bold">
         Our goal has always been to provide the highest-quality, <span style="color: #71a06a">THC-free*</span> CBD products for sale.
       </h1>
 
@@ -44,4 +44,11 @@ name: "top-hero"
 
 <style scoped>
 
+@media only screen and (max-width: 400px) {
+
+  .main-cta {
+    margin-top: -3rem;
+
+  }
+}
 </style>
