@@ -1,6 +1,6 @@
 <template>
   <section class="section container is-widescreen is-medium">
-<div class="hero mt-6">
+<div class="hero">
 <div class="hero-body">
   <div class="container">
     <div class="columns is-gapless is-multiline is-mobile">
