@@ -21,7 +21,7 @@ export default {
   },
   sitemap: {
     path: '/sitemap.xml',
-    hostname: 'http://chill2cbd.com',
+    hostname: 'http://www.chill2cbd.com',
     generate: true, // Enable me when using nuxt generate
     exclude: [],
     routes: []
