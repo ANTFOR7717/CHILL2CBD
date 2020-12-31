@@ -1,6 +1,10 @@
 export default {
   // buildDir: 'dist',
   // Global page headers (https://go.nuxtjs.dev/config-head)
+  googleAnalytics: {
+    id: 'UA-186348149-1'
+  },
+
   head: {
     title: ' Best CBD Products for Anxiety | THC-Free | Chill2CBD',
     meta: [
@@ -46,6 +50,7 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [ '@nuxtjs/snipcart',
+    '@nuxtjs/google-analytics',
   ],
   snipcart: {
     // Options available
