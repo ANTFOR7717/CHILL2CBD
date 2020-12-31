@@ -39,9 +39,9 @@
       <button class="button is-fullwidth snipcart-add-item mt-3"
               :data-item-id="company+' - '+snip_id+' - '+sizes[amount]"
               :data-item-name="name+' - '+sizes[amount]"
-              :data-item-url="'api.chill2cbd.com'"
+              :data-item-url="'http://api.chill2cbd.com'"
               :data-item-price="prices[amount]"
-              :data-item-image="url"
+              :data-item-image="url"t
               >
         <figure class="image is-32x32">
           <img src="@/assets/images/add-to-cart.svg">

@@ -36,7 +36,7 @@
         <button class="button is-fullwidth snipcart-add-item" @click="addCode()"
                 :data-item-name="name+' - '+buttons[amount]"
                 :data-item-id="company+' - '+item_id+' - '+buttons[amount]"
-                :data-item-url="'api.chill2cbd.com'"
+                :data-item-url="'http://api.chill2cbd.com'"
                 :data-item-price="price[amount]"
                 :data-item-image="url"
         >
