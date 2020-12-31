@@ -6,6 +6,13 @@
 
   </div>
     <product-bar v-show='this.$route.path.includes("/products")'/>
+    <div class="is-hidden" id="added-to-cart" v-show='this.$route.path.includes("/products")'>
+      <div class="container">
+        <div class="notification is-success is-light has-text-centered">
+          Added to cart!
+        </div>
+      </div>
+    </div>
     <Nuxt/>
     <bfooter/>
   </div>

@@ -36,10 +36,10 @@
 
         <h1 class="title is-size-2 is-size-3-mobile price mt-5">${{prices[amount]}}</h1>
 
-
       <button class="button is-fullwidth snipcart-add-item mt-3"
-              :data-item-id="snip_id+' - '+sizes[amount]"
+              :data-item-id="company+' - '+snip_id+' - '+sizes[amount]"
               :data-item-name="name+' - '+sizes[amount]"
+              :data-item-url="'api.chill2cbd.com'"
               :data-item-price="prices[amount]"
               :data-item-image="url"
               >

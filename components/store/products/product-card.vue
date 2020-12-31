@@ -1,4 +1,7 @@
 <template>
+  <section>
+
+
   <li :id="id" class="box product-card">
     <div style="height: 8rem; width: 14rem;" class="box is-medium container content is-vertical-center product">
       <slot></slot>
@@ -30,10 +33,10 @@
     </div>
     <div class="columns">
       <div class="column">
-
-        <button class="button is-fullwidth snipcart-add-item"
+        <button class="button is-fullwidth snipcart-add-item" @click="addCode()"
                 :data-item-name="name+' - '+buttons[amount]"
-                :data-item-id="item_id+' - '+buttons[amount]"
+                :data-item-id="company+' - '+item_id+' - '+buttons[amount]"
+                :data-item-url="'api.chill2cbd.com'"
                 :data-item-price="price[amount]"
                 :data-item-image="url"
         >
@@ -41,11 +44,19 @@
           <img src="@/assets/images/add-to-cart.svg">
           </figure>
         </button>
-
       </div>
       <div class="column"><h1 class="title is-size-4 is-size-5-mobile price">${{price[amount]}}</h1></div>
     </div>
   </li>
+<!--
+    {
+    "id": "{{company+' - '+item_id+' - '+buttons[amount]}}",
+    "price": "{{price[amount]}}",
+    "url": "api.chill2cbd.com"
+    }
+-->
+
+  </section>
 </template>
 
 <script>
@@ -86,6 +97,32 @@ export default {
       }
     },
 
+
+
+    addCode() {
+
+      function sleep(milliseconds) {
+        var start = new Date().getTime();
+        for (var i = 0; i < 1e7; i++) {
+          if ((new Date().getTime() - start) > milliseconds){
+            break;
+          }
+        }
+      }
+
+      document.getElementById("added-to-cart").classList.remove("is-hidden");
+
+
+      setTimeout(function(){
+        document.getElementById("added-to-cart").classList.add("is-hidden");
+      }, 2000);
+
+
+
+
+
+    },
+
     choice(index, i) {
       this.amount = index
 
@@ -94,6 +131,12 @@ export default {
 
 
   mounted() {
+
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+
 
   },
 
@@ -117,6 +160,7 @@ and (max-device-width: 812px) {
 
   .product-card {
     width: 19.5rem;
+    margin-bottom: 134rem;
 
   }
 
@@ -130,6 +174,7 @@ and (max-device-width: 2000px) {
   .product-card {
     margin-left: 2px;
     margin-right: 2px;
+    margin-bottom: 15px;
   }
 
 }
